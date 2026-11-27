@@ -1,0 +1,18 @@
+{
+  "history": 6,
+  "horizon": 6,
+  "study_nodes": 392,
+  "raw_array_layout": "(batch, history, nodes, channels)",
+  "input_layout": "(batch, input_channels, nodes, history)",
+  "output_layout": "(batch, selected_targets, nodes, horizon)",
+  "paper_layout": "(horizon, nodes, selected_targets) without the batch axis",
+  "targets": [
+    "Depth",
+    "Head",
+    "LatIn",
+    "TotIn",
+    "Flood"
+  ],
+  "non_empty_task_sets": 31,
+  "data_release": "study inputs are supplied locally and are not included"
+}
